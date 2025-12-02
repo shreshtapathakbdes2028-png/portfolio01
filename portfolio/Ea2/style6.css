@@ -1,0 +1,34 @@
+body{
+    background-image:url(images2/workbg.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+     min-height:2500px;
+     width: 100%;
+     
+}
+img{
+   width:100% ;
+   max-width:500px;
+   object-fit: cover;
+   vertical-align: middle;
+
+}
+.wrapper{
+    padding: 0  20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+
+
+}
+.intro{
+    flex: 1;
+}
+
+.about{
+    color: aliceblue;
+}
